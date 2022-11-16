@@ -1,5 +1,9 @@
 library globals;
 
+import 'dart:math';
+
+Random random = Random();
+
 Map Categories = {
   "programming": Programming,
   "electronics": Electronics,
@@ -111,3 +115,85 @@ List<String> PersnoalDevelopment = [
   "https://in.coursera.org/browse/personal-development",
   "https://www.edx.org/learn/personal-developmen",
 ];
+
+Map Advices = {
+  "emotion": EmotionHandling,
+  "decision": DecisionMaking,
+  "mental": MentalIllness,
+  "depression": Depression,
+  "physical": Physical,
+  "menstrual": Menstrual,
+  "isolation": Isolation,
+};
+
+List<String> EmotionHandling = [
+  "Let your emotions out physically",
+  "Let your body help you express your feelings by: Going for a walk or run",
+  "Try some relaxation strategies like Deep breathing",
+  "Distract yourself. If your emotions are too strong to express in other ways, try to distract yourself",
+];
+
+List<String> DecisionMaking = [
+  "Don't let stress get the better of you. Give yourself some time",
+  "Think about your goals and values",
+  "Consider all the possibilities",
+];
+
+List<String> MentalIllness = [
+  "Breathe through panic",
+  "Face your feelings. It’s normal to want to avoid thinking about a traumatic event",
+  "If you start to get a faster heartbeat or sweating palms, the best thing is not to fight it.",
+  "Face your fears. Avoiding fears only makes them scarier.",
+  "Don't try to be perfect. Visualise a happy place",
+  "Deal with emotional abuse. It is the learning to spot the sign",
+  "Regain control of the situation by acting confident and looking the abuser in the eye",
+  "Speak in a calm, clear voice and state a reasonable expectation",
+  "Act out of rationality, with responses that will help the situation, and not out of emotion.",
+  "Practice being more assertive in other situations, so you can be more assertive when being emotionally abused."
+];
+
+List<String> Depression = [
+  "Being depressed can make you feel helpless. You're not. Along with therapy and sometimes medication",
+  "If depressed, You need a routine, Set goals.",
+  "Exercise. Eat healthy",
+  "Get enough sleep , Take on responsibilities",
+  "Challenge negative thoughts",
+  "Prioritize self-care. Do your best to eat nutritious meals",
+  "Be patient. Remember that it’s normal to have a strong reaction to a distressing event",
+  ""
+];
+
+List<String> Physical = [
+  "Eat often to beat tiredness ",
+  "Lose weight to gain energy. Sleep well.",
+  "Reduce stress to boost energy.",
+  "Talking therapy beats fatigue.",
+  "Cut out caffeine.Drink less alcohol.",
+  "Eat smaller, more-frequent meals to reduce bloating and the sensation of fullness",
+  "Limit salt and salty foods to reduce bloating and fluid retention",
+  "Choose foods high in complex carbohydrates, such as fruits, vegetables and whole grains",
+];
+
+List<String> Menstrual = [
+  "Physical activity is also effective at reducing the symptoms of mood swings by helping to lower blood pressure",
+  "Improve the body’s ability to handle stress",
+  "Gain Social Support",
+];
+
+List<String> Isolation = [
+  "Identify your vital connections. These are the people that you view as essential to your health",
+  "Get everyone’s contact information. Gather your connections",
+  "Get outside. Social distancing doesn’t mean you have to stay inside",
+  "Stay as physically active as possible",
+];
+
+Map Helpline = {
+  "child": 1098,
+  "women": 1091,
+  "suicide": 988,
+  "mental": 14416,
+  "abuse": 181,
+  "depression": 4357,
+  "cyber": 155620,
+  "health": 104,
+};
